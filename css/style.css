@@ -1,8 +1,6 @@
 :root {
-  --color-cold-turkey: #d1c1c1;
-  --color-mine-shaft: #333;
-  --color-edd: #eae6e6;
-  --color-paris-white: #cedfd8;
+  --color-mine-shaft: #2b2b2b;
+  --color-edd: #fbf6e2;
 }
 
 * {
@@ -25,7 +23,7 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color: var(--color-mine-shaft);
-  background-color: var(--color-cold-turkey);
+  background: linear-gradient(138.25deg, rgba(112, 181, 255, 0.5) 0%, rgba(151, 0, 77, 0.4) 95.19%);
 }
 
 .header {
@@ -70,7 +68,7 @@ html {
   align-items: center;
   padding: 50px 0;
   border-radius: 5px;
-  background-color: var(--color-paris-white);
+  background: linear-gradient(121.24deg, rgba(79, 96, 18, 0.35) 0%, rgba(228, 191, 139, 0.12) 102.3%);
 }
 
 .profile-image {
